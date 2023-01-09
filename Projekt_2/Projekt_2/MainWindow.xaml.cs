@@ -26,17 +26,18 @@ namespace Projekt_2
         {
             InitializeComponent();
 
-            string connectionString = "SERVER=localhost;DATABASE=data_test;UID=root;PASSWORD=Studentkazuzia1";
+            string connectionString = "SERVER=localhost;DATABASE=data_test;UID=root;PASSWORD=123456789";
 
             MySqlConnection connection = new MySqlConnection(connectionString);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ksiazka_telefoniczna", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM posilki", connection);
+
             connection.Open();
             DataTable dt = new DataTable();
             dt.Load(cmd.ExecuteReader());
             connection.Close();
 
-            dtGrid.DataContext = dt;   
+            dane.DataContext = dt;   
         }
     }
 }

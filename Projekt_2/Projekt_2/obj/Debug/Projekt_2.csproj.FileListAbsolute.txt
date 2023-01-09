@@ -26,6 +26,3 @@ D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Proje
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\Projekt_2.exe.config
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\Projekt_2.csproj.CopyComplete
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\bin\Debug\System.Numerics.Vectors.dll
-D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\bin\Debug\Database2.mdf
-D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\bin\Debug\Database2_log.ldf
-D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\Projekt_2_Content.g.cs

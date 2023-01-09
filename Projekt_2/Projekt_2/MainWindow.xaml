@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid ItemsSource="{Binding}" Margin="0,243,0,10" Name="dtGrid"/>
+        <DataGrid ItemsSource="{Binding}" Margin="0,128,566,0" Name="dane"/>
     </Grid>
 
 </Window>
