@@ -30,7 +30,7 @@ namespace Projekt_2
 
             MySqlConnection connection = new MySqlConnection(connectionString);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM data_data;", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ksiazka_telefoniczna", connection);
             connection.Open();
             DataTable dt = new DataTable();
             dt.Load(cmd.ExecuteReader());
