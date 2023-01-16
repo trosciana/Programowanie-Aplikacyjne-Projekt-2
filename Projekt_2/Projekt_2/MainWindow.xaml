@@ -5,9 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Projekt_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="460" Width="493">
     <Grid>
-        <DataGrid ItemsSource="{Binding}" Margin="0,128,566,0" Name="dane"/>
+        <DataGrid ItemsSource="{Binding}" Margin="0,48,227,0" Name="dane" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="danie" Binding="{Binding danie}" />
+                <DataGridTextColumn Header="kalorie" Binding="{Binding kalorie}" />
+                <DataGridTextColumn Header="ilosc" Binding="{Binding ilosc}" />
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="DodajIlosc" DataContext="{Binding danie}">+</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="OdejmijIlosc" DataContext="{Binding danie}">-</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 
 </Window>
