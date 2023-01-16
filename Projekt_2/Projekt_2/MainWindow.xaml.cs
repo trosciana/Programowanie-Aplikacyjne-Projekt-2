@@ -36,7 +36,7 @@ namespace Projekt_2
             InitializeComponent();
             GLOBALS.table = "posilki";
             GLOBALS.connectionString = "SERVER=localhost;DATABASE=data_test;UID=root;PASSWORD=123456789";
-            dane.CanUserAddRows = false;
+            dane.CanUserAddRows = false;  // to jest po to zeby zniknal pusty wiersz, defaultowo true
             OdswiezWidok();
         }
 
@@ -77,7 +77,6 @@ namespace Projekt_2
                 OdswiezWidok();
             }
         }
-
       
     }
 

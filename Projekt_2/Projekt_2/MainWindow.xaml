@@ -28,6 +28,7 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="DODAJ NOWY ELEMENT" Name="guzik" HorizontalAlignment="Left" Margin="307,0,0,0" VerticalAlignment="Center"/>
     </Grid>
 
 </Window>
