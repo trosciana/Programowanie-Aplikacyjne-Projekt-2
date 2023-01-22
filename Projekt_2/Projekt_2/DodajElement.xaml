@@ -1,0 +1,18 @@
+﻿<Window x:Class="Projekt_2.DodajElement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_2"
+        mc:Ignorable="d"
+        Title="DodajElement" Height="129" Width="308">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="10,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="DanieText"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Danie" /></TextBlock>
+
+        <TextBox HorizontalAlignment="Left" Margin="143,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="KalorieText"  PreviewTextInput="NumberValidationTextBox"/>
+        <TextBlock HorizontalAlignment="Left" Margin="188,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pl-pl" Text="Kalorie"/></TextBlock>
+
+        <Button Content="OK" HorizontalAlignment="Left" Margin="83,48,0,0" VerticalAlignment="Top" Height="32" Width="98" Click="dodajDoBazy"/>
+    </Grid>
+</Window>

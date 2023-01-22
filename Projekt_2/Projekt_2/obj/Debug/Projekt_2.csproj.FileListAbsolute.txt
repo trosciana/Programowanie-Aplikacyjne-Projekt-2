@@ -26,3 +26,5 @@ D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Proje
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\Projekt_2.exe.config
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\Projekt_2.csproj.CopyComplete
 D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\bin\Debug\System.Numerics.Vectors.dll
+D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\DodajElement.g.cs
+D:\Zuzia Programistka\Github\Programowanie-Aplikacyjne-Projekt-2\Projekt_2\Projekt_2\obj\Debug\DodajElement.baml

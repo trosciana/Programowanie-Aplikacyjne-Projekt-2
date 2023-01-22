@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Projekt_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="460" Width="493">
+        Title="MainWindow" Height="444" Width="280">
     <Grid>
-        <DataGrid ItemsSource="{Binding}" Margin="0,48,227,0" Name="dane" AutoGenerateColumns="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310*"/>
+            <ColumnDefinition Width="183*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid ItemsSource="{Binding}" Margin="0,111,0,0" Name="dane" AutoGenerateColumns="False" Grid.ColumnSpan="2">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="danie" Binding="{Binding danie}" />
                 <DataGridTextColumn Header="kalorie" Binding="{Binding kalorie}" />
@@ -26,9 +30,11 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Suma" Binding="{Binding SumaKalorii}" Width="110"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="DODAJ NOWY ELEMENT" Name="guzik" HorizontalAlignment="Left" Margin="307,0,0,0" VerticalAlignment="Center"/>
+        <Button Content="DODAJ NOWY ELEMENT" Name="guzik" HorizontalAlignment="Left" Margin="73,10,0,0" VerticalAlignment="Top" Click="DodajElementDoBazy" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,55,0,0" TextWrapping="Wrap" Text="Całościowa Suma Kalorii" VerticalAlignment="Top" Width="134" Grid.ColumnSpan="2" TextAlignment="Center"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="80,76,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextAlignment="Center" IsReadOnly="True" Name="SumaSuma"/>
     </Grid>
-
 </Window>
